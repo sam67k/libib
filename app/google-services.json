@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "499139279806",
+    "project_id": "libibapplication",
+    "storage_bucket": "libibapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499139279806:android:16021d5f02b1004daad7ef",
+        "android_client_info": {
+          "package_name": "com.example.libib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499139279806-338n85mf76ekldpkhmkl84133ac13dek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYfD1p7oEIjYE5Kz0sNrViC35RWi_6yPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499139279806-338n85mf76ekldpkhmkl84133ac13dek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

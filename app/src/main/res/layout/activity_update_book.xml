@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".UpdateBookActivity"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:layout_marginHorizontal="50dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Update Book"
+		android:textColor="@color/blue"
+		android:textSize="50dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Old Details"
+		android:textColor="@color/blue7"
+		android:textSize="25dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="10dp"/>
+
+	<EditText
+		android:id="@+id/oldid"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ID (old)"
+		android:gravity="center"
+		android:inputType="number"/>
+
+	<EditText
+		android:id="@+id/oldtitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Title (old)"
+		android:gravity="center"
+		android:inputType="text"/>
+
+	<EditText
+		android:id="@+id/oldquantity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Quantity (old)"
+		android:gravity="center"
+		android:inputType="number"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Details"
+		android:textColor="@color/blue7"
+		android:textSize="25dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="10dp"/>
+
+	<EditText
+		android:id="@+id/newid"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="ID (new)"
+		android:gravity="center"
+		android:inputType="number"/>
+
+	<EditText
+		android:id="@+id/newtitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Title (new)"
+		android:gravity="center"
+		android:inputType="text"/>
+
+	<EditText
+		android:id="@+id/newquantity"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Quantity (new)"
+		android:gravity="center"
+		android:inputType="number"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"
+		android:text="Update"
+		android:onClick="updatebook"/>
+
+
+
+</LinearLayout>

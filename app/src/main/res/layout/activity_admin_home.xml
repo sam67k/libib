@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".AdminHomeActivity"
+	android:orientation="vertical"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:layout_marginHorizontal="90dp">
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="All Books"
+		android:onClick="allbooksactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="Add Book"
+		android:onClick="addbookactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="Update Book"
+		android:onClick="updatebookactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="Remove Book"
+		android:onClick="removebookactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="Issue Book"
+		android:onClick="issuebookactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="Return Book"
+		android:onClick="returnbookactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="See Issued Books"
+		android:onClick="seeissuedbooksactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue7"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:text="Logout"
+		android:onClick="logoutactivity"
+		android:textColor="@color/white"
+		android:backgroundTint="@color/blue5"/>
+
+</LinearLayout>
